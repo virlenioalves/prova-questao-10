@@ -1,0 +1,34 @@
+programa
+{
+
+
+codigo, senha: inteiro
+
+Inicio
+{
+
+
+
+escreval("Digite o código do usuário: ")
+
+leia(codigo)
+
+se (codigo<>1234) entao
+
+escreval("Usuário inválido")
+
+senao
+
+escreval("Digite a Senha: ")
+
+leia(senha)
+
+se (senha<>9999) entao
+
+escreval ("Senha incorreta!")
+
+senao
+
+escreval ("Acesso Permitido!") 
+}
+}
